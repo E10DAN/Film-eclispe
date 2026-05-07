@@ -1517,20 +1517,30 @@ footer {
 @media (max-width: 1023px) {
   :root { --section-pad: 6rem; }
 
-  .nav-links { display: none; }
-  .hamburger { display: flex; }
-  .nav-cta { display: none; }
+  /* Nav: hide links and desktop lang toggle, show hamburger */
+  .nav-links   { display: none; }
+  .nav-actions { display: none; }   /* lang toggle lives in mobile menu */
+  .hamburger   { display: flex; }
+  .nav-cta     { display: none; }
 
-  .hero-layout {
-    grid-template-columns: 1fr;
-    text-align: center;
-    padding-top: 2rem;
+  /* Nav container: logo far-left, hamburger far-right */
+  .nav-container {
+    justify-content: space-between;
+    gap: 1rem;
   }
 
-  .hero-layout { max-width: 100%; align-items: center; text-align: center; }
-  .hero-sub, .trust-row { margin-inline: auto; }
-  .trust-row { justify-content: center; }
-  .hero-actions { justify-content: center; }
+  /* Logo — tablet size */
+  .logo {
+    width: 220px;
+    height: 50px;
+    background-size: 256px;
+    background-position: -17px -83px;
+  }
+
+  .hero-layout { max-width: 100%; align-items: flex-start; text-align: left; padding-top: 2rem; }
+  .hero-sub { margin-inline: 0; }
+  .trust-row { justify-content: flex-start; }
+  .hero-actions { justify-content: flex-start; }
 
   .pain-grid        { grid-template-columns: repeat(2, 1fr); }
   .services-grid    { grid-template-columns: repeat(2, 1fr); }
@@ -1556,25 +1566,74 @@ footer {
 @media (max-width: 639px) {
   :root { --section-pad: 4.5rem; }
 
+  /* ---- Nav mobile ---- */
+  .nav-container { height: 64px; gap: 0.75rem; }
+
+  /* Logo — mobile: 178×40 px visible area
+     Canvas 2000×2000, content (167,680)→(1826,991) = 1659×311
+     Scale 0.1073: bg-size 215px, x-pad -13px, y-pad -69px          */
+  .logo {
+    width: 178px;
+    height: 40px;
+    background-size: 215px;
+    background-position: -13px -69px;
+  }
+
+  /* ---- Hero mobile — left-aligned, tighter heading ---- */
+  .hero-layout {
+    padding-top: 1.5rem;
+    padding-bottom: 3.5rem;
+  }
+
+  .hero-heading {
+    font-size: clamp(2.4rem, 9vw, 3.2rem);
+    letter-spacing: -1.5px;
+    line-height: 1.08;
+  }
+
+  .hero-sub {
+    font-size: 1rem;
+    max-width: 100%;
+  }
+
+  .hero-support {
+    font-size: 0.9rem;
+  }
+
+  /* Eyebrow pill — tighter on mobile */
+  #hero .eyebrow {
+    font-size: 0.65rem;
+    padding: 0.3rem 0.75rem;
+  }
+
+  /* Trust row — wrap cleanly */
+  .trust-row {
+    gap: 0.4rem 0.6rem;
+  }
+
+  .trust-item { font-size: 0.78rem; }
+  .trust-separator { display: none; }  /* remove dots — too cramped */
+
+  /* CTA buttons full-width */
+  .hero-actions     { flex-direction: column; width: 100%; }
+  .hero-actions .btn{ width: 100%; text-align: center; }
+
+  /* ---- Sections ---- */
   .pain-grid     { grid-template-columns: 1fr; }
   .services-grid { grid-template-columns: 1fr; }
   .gallery-scroll{ grid-template-columns: 1fr; }
   .stats-grid    { grid-template-columns: repeat(2, 1fr); gap: 1rem; }
   .stat-item     { padding: 1.75rem 0.75rem; }
 
-  .hero-heading  { letter-spacing: -1.5px; }
-
-  .hero-actions     { flex-direction: column; width: 100%; }
-  .hero-actions .btn{ width: 100%; }
-
+  /* ---- Form ---- */
   .quote-right  { padding: 1.75rem 1.25rem; }
 
-  /* Shrink footer logo on mobile */
+  /* ---- Footer logo mobile ---- */
   .footer-logo {
-    width: 289px;
-    height: 64px;
-    background-size: 334px;
-    background-position: -22px -108px;
+    width: 178px;
+    height: 40px;
+    background-size: 215px;
+    background-position: -13px -69px;
   }
 
   .footer-grid    { grid-template-columns: 1fr; gap: 2rem; }
