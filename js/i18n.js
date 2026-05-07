@@ -47,7 +47,7 @@ const translations = {
     "step3.title": "Expert Installation",
     "step3.body": "Our certified technicians install with precision — clean, bubble-free, and done in as little as one day.",
 
-    "services.eyebrow": "Our Films",
+    "services.eyebrow": "Films",
     "services.headline": "Professional window film for every need",
     "svc1.title": "Solar Control Film",
     "svc1.body": "Reduce heat and glare. Improve indoor comfort while lowering energy costs.",
@@ -85,7 +85,7 @@ const translations = {
     "area.city5": "Greater Quebec Area",
     "area.cta": "Book Your Installation",
 
-    "apps.eyebrow": "Applications",
+    "apps.eyebrow": "Solutions",
     "apps.headline": "Window film for every environment",
     "app1.title": "Residential",
     "app1.body": "Protect your home from UV, heat, and prying eyes year-round. Comfortable in every season.",
@@ -233,7 +233,7 @@ const translations = {
     "step3.title": "Installation professionnelle",
     "step3.body": "Nos techniciens certifiés posent le film avec précision — sans bulles, propre, en une seule journée.",
 
-    "services.eyebrow": "Nos films",
+    "services.eyebrow": "Films",
     "services.headline": "Un film professionnel pour chaque besoin",
     "svc1.title": "Film de contrôle solaire",
     "svc1.body": "Réduisez la chaleur et les reflets. Améliorez le confort intérieur tout en réduisant vos coûts énergétiques.",
@@ -271,7 +271,7 @@ const translations = {
     "area.city5": "Grand Québec",
     "area.cta": "Réservez votre installation",
 
-    "apps.eyebrow": "Applications",
+    "apps.eyebrow": "Solutions",
     "apps.headline": "Un film pour chaque environnement",
     "app1.title": "Résidentiel",
     "app1.body": "Protégez votre maison des UV, de la chaleur et des regards. Confortable en toute saison.",
