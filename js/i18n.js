@@ -5,7 +5,7 @@ const translations = {
     "nav.why": "Why Us",
     "nav.faq": "FAQ",
     "nav.transformations": "Transformations",
-    "nav.quote": "Get a Free Quote",
+    "nav.quote": "Free Quote",
 
     "hero.eyebrow": "Premium Window Film — Residential & Commercial",
     "hero.headline": "Smarter Windows.<br><span class=\"accent-word\">Better Living.</span>",
