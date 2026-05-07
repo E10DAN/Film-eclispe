@@ -1,7 +1,7 @@
 const translations = {
   en: {
-    "nav.services": "Services",
-    "nav.applications": "Applications",
+    "nav.services": "Films",
+    "nav.applications": "Solutions",
     "nav.why": "Why Us",
     "nav.faq": "FAQ",
     "nav.transformations": "Transformations",
@@ -186,8 +186,8 @@ const translations = {
   },
 
   fr: {
-    "nav.services": "Services",
-    "nav.applications": "Applications",
+    "nav.services": "Films",
+    "nav.applications": "Solutions",
     "nav.why": "Pourquoi nous",
     "nav.faq": "FAQ",
     "nav.transformations": "Transformations",
