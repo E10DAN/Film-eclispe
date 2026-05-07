@@ -1628,6 +1628,21 @@ footer {
   /* ---- Form ---- */
   .quote-right  { padding: 1.75rem 1.25rem; }
 
+  /* ---- Mobile nav: show CTA button, hide lang toggle from top bar ---- */
+  .nav-actions {
+    display: flex;
+  }
+  .nav-actions .lang-toggle {
+    display: none;        /* lang toggle is inside the hamburger menu */
+  }
+  .nav-cta {
+    display: flex !important;
+    font-size: 0.72rem;
+    padding: 9px 14px;
+    min-height: 38px;
+    white-space: nowrap;
+  }
+
   /* ---- Footer logo mobile ---- */
   .footer-logo {
     width: 178px;
@@ -1636,9 +1651,45 @@ footer {
     background-position: -13px -69px;
   }
 
-  .footer-grid    { grid-template-columns: 1fr; gap: 2rem; }
-  .footer-brand   { grid-column: auto; }
-  .footer-bottom  { flex-direction: column; text-align: center; }
+  /* ---- Footer horizontal layout on mobile ---- */
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem 2rem;
+  }
+
+  /* Brand spans full width at top */
+  .footer-brand {
+    grid-column: 1 / -1;
+    flex-direction: row;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  /* Shrink tagline on mobile so footer stays compact */
+  .footer-tagline {
+    font-size: 0.78rem;
+    max-width: 100%;
+    line-height: 1.55;
+  }
+
+  /* Tighter column content */
+  .footer-col-heading {
+    font-size: 0.65rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .footer-links { gap: 0.4rem; }
+  .footer-links a,
+  .footer-links p { font-size: 0.78rem; }
+
+  .footer-bottom {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 0.5rem;
+  }
 
   .ba-container { aspect-ratio: 4 / 3; }
 }
