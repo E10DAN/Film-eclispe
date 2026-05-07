@@ -1652,24 +1652,8 @@ footer {
     font-weight: 800;
   }
 
-  /* Chips: 2×2 grid, smaller font so FR text stays single-line */
-  .hero-chips {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.4rem;
-  }
-  .hero-chip {
-    white-space: nowrap;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.62rem;
-    padding: 0.3rem 0.55rem;
-    gap: 0.3rem;
-  }
-  .hero-chip svg {
-    width: 13px;
-    height: 13px;
-  }
+  /* Chips hidden on mobile — headline + support text carry the message */
+  .hero-chips { display: none; }
 
   /* Eyebrow pill — tighter on mobile */
   #hero .eyebrow {
@@ -1677,20 +1661,19 @@ footer {
     padding: 0.3rem 0.75rem;
   }
 
-  /* Trust row — 2×2 grid on mobile for clean structure */
+  /* Trust row — single compact line */
   .trust-row {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
-    padding-top: 0.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem 0.5rem;
+    padding-top: 0.5rem;
+    margin-top: 0;
   }
-  .trust-separator { display: none; }
-  .trust-item {
-    font-size: 0.78rem;
-    text-align: center;
-    justify-content: center;
-    white-space: normal;
-  }
+  .trust-separator { display: block; }
+  .trust-item { font-size: 0.72rem; font-weight: 600; }
+
+  /* Tighter hero spacing on mobile */
+  .hero-text { gap: 1.1rem; }
 
   /* CTA buttons full-width */
   .hero-actions     { flex-direction: column; width: 100%; }
