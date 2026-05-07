@@ -700,6 +700,8 @@ section { padding: var(--section-pad) 0; }
     url('../images/Privacy films.jpg') center / cover no-repeat;
 }
 
+.service-img-graffiti { background: linear-gradient(135deg, #F0F0F0 0%, #E4E4E2 50%, #EAEAE8 100%); }
+
 .service-img-thermal {
   background:
     linear-gradient(rgba(0,0,0,0.08), rgba(0,0,0,0.14)),
@@ -1592,8 +1594,19 @@ footer {
 @media (max-width: 639px) {
   :root { --section-pad: 4.5rem; }
 
-  /* ---- Nav mobile ---- */
-  .nav-container { height: 64px; gap: 0.75rem; }
+  /* ---- Nav mobile: grid so CTA is perfectly centered ---- */
+  .nav-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 64px;
+    align-items: center;
+    gap: 0.5rem;
+    padding-inline: 0;
+  }
+  .logo          { grid-column: 1; grid-row: 1; }
+  .nav-links     { display: none; }
+  .nav-actions   { grid-column: 2; grid-row: 1; display: flex; justify-content: center; }
+  .hamburger     { grid-column: 3; grid-row: 1; display: flex; margin-left: 0; }
 
   /* Logo — mobile: 158×34 px visible area, nudged left (no left padding)
      Canvas 2000×2000, content (167,680)→(1826,991) = 1659×311
