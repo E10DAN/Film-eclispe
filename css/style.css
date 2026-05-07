@@ -505,28 +505,33 @@ section { padding: var(--section-pad) 0; }
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.5rem 0.6rem;
   margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1.5px solid rgba(0, 0, 0, 0.12);
 }
 
 .trust-item {
-  font-size: 0.85rem;
-  font-weight: 600;
+  font-size: 0.92rem;
+  font-weight: 700;
   color: var(--text);
-  background: rgba(255, 255, 255, 0.72);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  padding: 0.35rem 0.85rem;
-  border-radius: 100px;
-  border: 1px solid rgba(0, 0, 0, 0.09);
   white-space: nowrap;
 }
 
-/* Star gets accent color for visual pop */
+/* Star rating item in orange */
 .trust-item:first-child { color: var(--accent); }
 
-/* Separators no longer needed — each item is its own pill */
-.trust-separator { display: none; }
+/* Small accent dot separator */
+.trust-separator {
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.5;
+  flex-shrink: 0;
+  font-size: 0;
+}
 
 
 /* ========================================================
@@ -1652,8 +1657,9 @@ footer {
     padding: 0.3rem 0.75rem;
   }
 
-  /* Trust row — smaller pills on mobile */
-  .trust-item { font-size: 0.75rem; padding: 0.28rem 0.7rem; }
+  /* Trust row — slightly smaller on mobile */
+  .trust-row { padding-top: 0.6rem; }
+  .trust-item { font-size: 0.8rem; }
 
   /* CTA buttons full-width */
   .hero-actions     { flex-direction: column; width: 100%; }
