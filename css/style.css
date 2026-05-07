@@ -629,8 +629,8 @@ section { padding: var(--section-pad) 0; }
   font-family: var(--font-sans);
   font-size: 4rem;
   font-weight: 800;
-  color: var(--accent);
-  opacity: 0.2;
+  color: #c85800;
+  opacity: 0.55;
   line-height: 1;
   letter-spacing: -2px;
 }
