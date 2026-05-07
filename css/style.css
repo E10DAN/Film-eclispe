@@ -1680,14 +1680,14 @@ footer {
   .trust-row { order: 6; }
 
   .hero-chip {
-    white-space: nowrap;
     justify-content: center;
     text-align: center;
-    font-size: 0.62rem;
-    padding: 0.3rem 0.55rem;
-    gap: 0.3rem;
+    font-size: 0.78rem;
+    padding: 0.6rem 0.85rem;
+    gap: 0.45rem;
+    white-space: normal;
   }
-  .hero-chip svg { width: 13px; height: 13px; }
+  .hero-chip svg { width: 17px; height: 17px; }
 
   /* Eyebrow pill — tighter on mobile */
   #hero .eyebrow {
