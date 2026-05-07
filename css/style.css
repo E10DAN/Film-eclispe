@@ -1648,8 +1648,8 @@ footer {
   }
 
   .hero-support {
-    font-size: 0.9rem;
-    font-weight: 700;
+    font-size: 0.95rem;
+    font-weight: 800;
   }
 
   /* Eyebrow pill — tighter on mobile */
@@ -1658,9 +1658,20 @@ footer {
     padding: 0.3rem 0.75rem;
   }
 
-  /* Trust row — slightly smaller on mobile */
-  .trust-row { padding-top: 0.6rem; }
-  .trust-item { font-size: 0.8rem; }
+  /* Trust row — 2×2 grid on mobile for clean structure */
+  .trust-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding-top: 0.6rem;
+  }
+  .trust-separator { display: none; }
+  .trust-item {
+    font-size: 0.78rem;
+    text-align: center;
+    justify-content: center;
+    white-space: normal;
+  }
 
   /* CTA buttons full-width */
   .hero-actions     { flex-direction: column; width: 100%; }
