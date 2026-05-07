@@ -525,7 +525,7 @@ section { padding: var(--section-pad) 0; }
 /* ========================================================
    PAIN POINTS
    ======================================================== */
-#pain-points { background: #141414; }
+#pain-points { background: var(--surface-2); }
 
 .pain-grid {
   display: grid;
@@ -839,7 +839,7 @@ section { padding: var(--section-pad) 0; }
    ======================================================== */
 #stats {
   padding: 5rem 0;
-  background: #141414;
+  background: var(--surface);
   position: relative;
   overflow: hidden;
 }
@@ -896,7 +896,7 @@ section { padding: var(--section-pad) 0; }
 /* ========================================================
    SERVICE AREA — simple centered layout
    ======================================================== */
-#service-area { background: var(--surface); }
+#service-area { background: var(--surface-2); }
 
 .area-simple {
   max-width: 640px;
@@ -1008,7 +1008,7 @@ section { padding: var(--section-pad) 0; }
 /* ========================================================
    TESTIMONIALS — simple text blocks
    ======================================================== */
-#testimonials { background: var(--surface-2); }
+#testimonials { background: var(--surface); }
 
 .testimonials-simple {
   max-width: 720px;
@@ -1052,7 +1052,7 @@ section { padding: var(--section-pad) 0; }
 /* ========================================================
    BEFORE / AFTER GALLERY
    ======================================================== */
-#gallery { background: #141414; }
+#gallery { background: var(--surface-2); }
 
 .gallery-scroll {
   display: grid;
@@ -1531,53 +1531,6 @@ footer {
 }
 
 .footer-legal a:hover { color: var(--text-muted); }
-
-/* ========================================================
-   DARK SECTION OVERRIDES
-   Sections: #pain-points, #stats, #gallery → charcoal #141414
-   ======================================================== */
-
-/* Headings & text */
-#pain-points .section-heading,
-#stats .section-heading,
-#gallery .section-heading { color: #F0EDE8; }
-
-#pain-points .section-sub,
-#gallery .section-sub { color: rgba(240, 237, 232, 0.6); }
-
-/* Pain cards on dark */
-#pain-points .pain-card {
-  background: #1E1C18;
-  border-color: rgba(255, 255, 255, 0.07);
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
-}
-#pain-points .pain-card:hover { border-color: rgba(255, 117, 31, 0.35); }
-#pain-points .pain-card h3 { color: #F0EDE8; }
-#pain-points .pain-card p  { color: rgba(240, 237, 232, 0.58); }
-
-/* Stats items on dark */
-#stats::before { background: linear-gradient(135deg, rgba(255,117,31,0.06) 0%, transparent 60%); }
-#stats .stat-item {
-  background: #1E1C18;
-  border-color: rgba(255, 255, 255, 0.07);
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.35);
-}
-#stats .stat-item:hover { border-color: rgba(255, 117, 31, 0.35); }
-#stats .stat-label { color: rgba(240, 237, 232, 0.58); }
-
-/* Gallery on dark */
-#gallery .ba-label { color: rgba(240, 237, 232, 0.65); }
-#gallery .ba-container { border-color: rgba(255, 255, 255, 0.08); }
-#gallery .ba-before-label {
-  background: rgba(14, 14, 14, 0.8);
-  color: rgba(240, 237, 232, 0.7);
-  border-color: rgba(255, 255, 255, 0.1);
-}
-#gallery .ba-after-label {
-  background: rgba(14, 14, 14, 0.8);
-  color: var(--accent);
-  border-color: rgba(255, 117, 31, 0.35);
-}
 
 /* ========================================================
    NAV CTA on smaller desktop
