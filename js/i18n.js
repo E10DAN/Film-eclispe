@@ -181,7 +181,7 @@ const translations = {
     "nav.why": "Pourquoi nous",
     "nav.faq": "FAQ",
     "nav.transformations": "Transformations",
-    "nav.quote": "Obtenez une soumission gratuite",
+    "nav.quote": "Soumission gratuite",
 
     "hero.eyebrow": "Pellicule pour vitre premium — Résidentiel &amp; Commercial",
     "hero.headline": "Fenêtres plus intelligentes.<br><span class=\"accent-word\">Vie améliorée.</span>",

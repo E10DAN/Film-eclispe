@@ -1569,14 +1569,14 @@ footer {
   /* ---- Nav mobile ---- */
   .nav-container { height: 64px; gap: 0.75rem; }
 
-  /* Logo — mobile: 178×40 px visible area
+  /* Logo — mobile: 158×34 px visible area, nudged left (no left padding)
      Canvas 2000×2000, content (167,680)→(1826,991) = 1659×311
-     Scale 0.1073: bg-size 215px, x-pad -13px, y-pad -69px          */
+     Scale 0.0952: bg-size 190px, x-start -16px (flush left), y -65px  */
   .logo {
-    width: 178px;
-    height: 40px;
-    background-size: 215px;
-    background-position: -13px -69px;
+    width: 158px;
+    height: 34px;
+    background-size: 190px;
+    background-position: -16px -65px;
   }
 
   /* ---- Hero mobile — left-aligned, tighter heading ---- */
@@ -1645,10 +1645,10 @@ footer {
 
   /* ---- Footer logo mobile ---- */
   .footer-logo {
-    width: 178px;
-    height: 40px;
-    background-size: 215px;
-    background-position: -13px -69px;
+    width: 158px;
+    height: 34px;
+    background-size: 190px;
+    background-position: -16px -65px;
   }
 
   /* ---- Footer horizontal layout on mobile ---- */
