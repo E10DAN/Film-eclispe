@@ -1652,16 +1652,23 @@ footer {
     font-weight: 800;
   }
 
-  /* Chips: 2×2 grid so FR/EN always align the same */
+  /* Chips: 2×2 grid, smaller font so FR text stays single-line */
   .hero-chips {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0.5rem;
+    gap: 0.4rem;
   }
   .hero-chip {
-    white-space: normal;
+    white-space: nowrap;
     justify-content: center;
     text-align: center;
+    font-size: 0.62rem;
+    padding: 0.3rem 0.55rem;
+    gap: 0.3rem;
+  }
+  .hero-chip svg {
+    width: 13px;
+    height: 13px;
   }
 
   /* Eyebrow pill — tighter on mobile */
