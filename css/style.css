@@ -1682,19 +1682,12 @@ footer {
     padding: 0.3rem 0.75rem;
   }
 
-  /* Trust row — single compact line */
-  .trust-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.35rem 0.5rem;
-    padding-top: 0.5rem;
-    margin-top: 0;
-  }
-  .trust-separator { display: block; }
-  .trust-item { font-size: 0.72rem; font-weight: 600; }
+  /* Hide everything below the primary CTA on mobile */
+  #hero .btn-ghost { display: none; }
+  #hero .trust-row { display: none; }
 
-  /* Tighter hero spacing on mobile */
-  .hero-text { gap: 1.1rem; }
+  /* More breathing room between hero elements on mobile */
+  .hero-text { gap: 1.5rem; }
 
   /* CTA buttons full-width */
   .hero-actions     { flex-direction: column; width: 100%; }
