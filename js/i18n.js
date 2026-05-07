@@ -11,6 +11,11 @@ const translations = {
     "hero.headline": "Smarter Windows.<br><span class=\"accent-word\">Better Living.</span>",
     "hero.sub": "Block heat, reduce glare, and protect your space with premium window film installation.",
     "hero.support": "Comfort, privacy, and protection — installed in just one day.",
+    "chip.heat":     "Block Heat",
+    "chip.uv":       "Block UV",
+    "chip.privacy":  "Add Privacy",
+    "chip.security": "Add Security",
+
     "hero.cta1": "Get a Free Quote",
     "hero.cta2": "Explore Our Films",
     "hero.trust1": "★ 4.9/5 Rating",
@@ -187,6 +192,11 @@ const translations = {
     "hero.headline": "Fenêtres plus intelligentes.<br><span class=\"accent-word\">Vie améliorée.</span>",
     "hero.sub": "Bloquez la chaleur, réduisez les reflets et protégez votre espace avec nos films haute qualité.",
     "hero.support": "Confort, intimité et protection — posés en une seule journée.",
+    "chip.heat":     "Bloquer la chaleur",
+    "chip.uv":       "Bloquer les UV",
+    "chip.privacy":  "Améliorer l'intimité",
+    "chip.security": "Renforcer la sécurité",
+
     "hero.cta1": "Obtenez une soumission gratuite",
     "hero.cta2": "Découvrez nos films",
     "hero.trust1": "★ 4,9/5 Évaluation",

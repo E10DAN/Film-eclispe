@@ -460,6 +460,32 @@ section { padding: var(--section-pad) 0; }
   border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
+/* ---- Hero benefit chips ---- */
+.hero-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.hero-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.4rem 0.9rem;
+  background: rgba(255, 255, 255, 0.68);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 0, 0, 0.09);
+  border-radius: 100px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text);
+  white-space: nowrap;
+  letter-spacing: 0.01em;
+}
+
+.hero-chip svg { color: var(--accent); flex-shrink: 0; }
+
 .hero-support {
   font-family: var(--font-sans);
   font-size: 1rem;
