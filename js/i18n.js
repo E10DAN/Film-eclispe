@@ -23,7 +23,7 @@
     "hero.trust3": "Certified Technicians",
     "hero.trust4": "Warranty Included",
 
-    "pain.eyebrow": "The Problem",
+    "pain.eyebrow": "The Solution",
     "pain.headline": "Common problems window film solves",
     "pain1.title": "Unbearable Indoor Heat",
     "pain1.body": "Solar films block up to 79% of solar heat gain",
@@ -209,7 +209,7 @@
     "hero.trust3": "Techniciens certifiés",
     "hero.trust4": "Garantie incluse",
 
-    "pain.eyebrow": "Le problème",
+    "pain.eyebrow": "La solution",
     "pain.headline": "Les problèmes résolus par nos pellicules pour vitres",
     "pain1.title": "Chaleur intérieure insupportable",
     "pain1.body": "Nos pellicules bloquent jusqu'à 79 % de la chaleur solaire",
