@@ -210,7 +210,7 @@
     "hero.trust4": "Garantie incluse",
 
     "pain.eyebrow": "Le problème",
-    "pain.headline": "Les problèmes que nos pellicules pour vitres résolvent",
+    "pain.headline": "Les problèmes résolus par nos pellicules pour vitres",
     "pain1.title": "Chaleur intérieure insupportable",
     "pain1.body": "Nos pellicules bloquent jusqu'à 79 % de la chaleur solaire",
     "pain2.title": "Dommages UV sur vos intérieurs",
