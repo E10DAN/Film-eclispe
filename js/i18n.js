@@ -24,7 +24,7 @@
     "hero.trust3": "Certified Technicians",
     "hero.trust4": "Warranty Included",
 
-    "pain.eyebrow": "The Solution",
+    "pain.eyebrow": "Solutions",
     "pain.headline": "Common problems window film solves",
     "pain1.title": "Unbearable Indoor Heat",
     "pain1.body": "Solar films block up to 79% of solar heat gain",
@@ -86,7 +86,7 @@
     "area.city5": "Greater Quebec Area",
     "area.cta": "Book Your Installation",
 
-    "apps.eyebrow": "Solutions",
+    "apps.eyebrow": "Applications",
     "apps.headline": "Window film for every environment",
     "app1.title": "Residential",
     "app1.body": "Protect your home from UV, heat, and prying eyes year-round. Comfortable in every season.",
@@ -211,7 +211,7 @@
     "hero.trust3": "Techniciens certifiés",
     "hero.trust4": "Garantie incluse",
 
-    "pain.eyebrow": "La solution",
+    "pain.eyebrow": "Solutions",
     "pain.headline": "Les problèmes résolus par nos pellicules pour vitres",
     "pain1.title": "Chaleur intérieure insupportable",
     "pain1.body": "Nos pellicules bloquent jusqu'à 79 % de la chaleur solaire",
@@ -273,7 +273,7 @@
     "area.city5": "Grand Québec",
     "area.cta": "Réservez votre installation",
 
-    "apps.eyebrow": "Solutions",
+    "apps.eyebrow": "Applications",
     "apps.headline": "Une pellicule pour chaque environnement",
     "app1.title": "Résidentiel",
     "app1.body": "Protégez votre maison des UV, de la chaleur et des regards. Confortable en toute saison.",
