@@ -1735,6 +1735,17 @@ footer {
   .quote-right { width: 100%; padding: 0; }
   .quote-right iframe { min-height: 680px; }
 
+  /* Mobile quote section: hide everything except the heading */
+  .quote-left .eyebrow,
+  .quote-left .section-sub,
+  .quote-left .form-trust-list,
+  .quote-left .contact-links { display: none; }
+
+  .quote-left {
+    gap: 0;
+    margin-bottom: 0.25rem;
+  }
+
   /* ---- Mobile nav: show CTA button, hide lang toggle from top bar ---- */
   .nav-actions {
     display: flex;
