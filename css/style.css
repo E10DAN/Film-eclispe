@@ -773,6 +773,49 @@ section { padding: var(--section-pad) 0; }
   line-height: 1.35;
 }
 
+/* ---- Brand logos bar ---- */
+.brands-bar {
+  margin-top: 3.5rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid var(--border);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.brands-label {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-subtle);
+}
+
+.brands-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+  flex-wrap: wrap;
+}
+
+.brand-logo {
+  height: 38px;
+  width: auto;
+  object-fit: contain;
+  opacity: 0.72;
+  transition: opacity 0.3s ease;
+}
+
+.brand-logo:hover { opacity: 1; }
+
+/* Solar Screen has a white background — multiply removes it on cream/white */
+.brand-logo-ss { mix-blend-mode: multiply; }
+
+/* Solar Gard SVG has transparent bg — render as-is */
+.brand-logo-sg { height: 44px; }
+
 /* ========================================================
    APPLICATIONS
    ======================================================== */
