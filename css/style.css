@@ -1707,15 +1707,18 @@ footer {
     line-height: 1.15;
   }
 
-  /* Staircase headline — each line indented progressively */
+  /* Staircase headline — centered block with progressive indentation */
   .hero-heading-mobile {
     display: flex;
     flex-direction: column;
     gap: 0.05em;
+    width: fit-content;
+    margin-inline: auto; /* centers the staircase block on screen */
+    text-align: left;
   }
   .hl-l1 { display: block; margin-left: 0; }
   .hl-l2 { display: block; margin-left: 1.4rem; }
-  .hl-l3 { display: block; margin-left: 2.8rem; font-size: 0.85em; font-weight: 700; color: var(--text-muted); }
+  .hl-l3 { display: block; margin-left: 2.8rem; font-size: 0.85em; font-weight: 700; color: var(--text); }
 
   .hero-sub {
     font-size: 1rem;
@@ -1726,17 +1729,17 @@ footer {
     font-size: 0.9rem;
     font-weight: 700;
     font-style: italic;
-    margin-top: 0.4rem; /* stays close under headline */
+    margin-top: 0.4rem;
   }
 
-  /* Hide eyebrow pill on mobile — headline now states the product directly */
-  #hero .eyebrow { display: none; }
+  /* Hide eyebrow + support line on mobile — headline is self-contained */
+  #hero .eyebrow        { display: none; }
+  .hero-support-mobile  { display: none; }
 
-  /* Swap headline and support to mobile versions */
+  /* Swap headline to mobile version, hide desktop variants */
   .hero-heading-desktop { display: none; }
   .hero-support-desktop { display: none; }
   .hero-heading-mobile  { display: block; }
-  .hero-support-mobile  { display: block; }
 
   /* Reorder hero elements only — scoped to .hero-text so other sections are unaffected */
   .hero-text .eyebrow      { order: 1; }
