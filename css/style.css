@@ -486,6 +486,12 @@ section { padding: var(--section-pad) 0; }
 
 .hero-chip svg { color: var(--accent); flex-shrink: 0; }
 
+/* Desktop shows desktop variants, hides mobile variants */
+.hero-heading-mobile  { display: none; }
+.hero-support-mobile  { display: none; }
+.hero-heading-desktop { display: block; }
+.hero-support-desktop { display: block; }
+
 .hero-support {
   font-family: var(--font-sans);
   font-size: 1rem;
@@ -1712,6 +1718,12 @@ footer {
 
   /* Hide eyebrow pill on mobile — headline now states the product directly */
   #hero .eyebrow { display: none; }
+
+  /* Swap headline and support to mobile versions */
+  .hero-heading-desktop { display: none; }
+  .hero-support-desktop { display: none; }
+  .hero-heading-mobile  { display: block; }
+  .hero-support-mobile  { display: block; }
 
   /* Reorder hero elements only — scoped to .hero-text so other sections are unaffected */
   .hero-text .eyebrow      { order: 1; }
