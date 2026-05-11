@@ -1701,9 +1701,9 @@ footer {
   }
 
   .hero-heading {
-    font-size: clamp(2.4rem, 9vw, 3.2rem);
-    letter-spacing: -1.5px;
-    line-height: 1.08;
+    font-size: clamp(2rem, 8vw, 2.8rem);
+    letter-spacing: -1px;
+    line-height: 1.12;
   }
 
   .hero-sub {
@@ -1714,6 +1714,7 @@ footer {
   .hero-support {
     font-size: 0.95rem;
     font-weight: 800;
+    margin-top: 0.75rem; /* push support lower from headline */
   }
 
   /* Hide eyebrow pill on mobile — headline now states the product directly */
@@ -1735,11 +1736,12 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 0.4rem;
     width: 100%;
+    margin-top: auto; /* all remaining space above chips — pushes them toward button */
   }
   .hero-text .hero-actions {
     order: 5;
-    margin-top: auto;
-    padding-top: 1rem;
+    margin-top: 1rem; /* fixed small gap between chips and CTA */
+    padding-top: 0;
   }
   .hero-text .trust-row { order: 6; }
 
