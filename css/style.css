@@ -1710,6 +1710,9 @@ footer {
     font-weight: 800;
   }
 
+  /* Hide eyebrow pill on mobile — headline now states the product directly */
+  #hero .eyebrow { display: none; }
+
   /* Reorder hero elements only — scoped to .hero-text so other sections are unaffected */
   .hero-text .eyebrow      { order: 1; }
   .hero-text .hero-heading { order: 2; }
