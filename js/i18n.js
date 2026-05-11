@@ -216,7 +216,7 @@
     "pain1.title": "Chaleur intérieure insupportable",
     "pain1.body": "Nos pellicules bloquent jusqu'à 79 % de la chaleur solaire",
     "pain2.title": "Dommages UV sur vos intérieurs",
-    "pain2.body": "Bloquez jusqu'à 99 % des rayons UV nocifs",
+    "pain2.body": "Bloquez jusqu'à 99 % des UV nocifs — protégez vos planchers, meubles et œuvres d'art",
     "pain3.title": "Manque d'intimité",
     "pain3.body": "Films miroir : intimité sans sacrifier la lumière",
     "pain4.title": "Factures d'énergie élevées",
