@@ -1732,14 +1732,24 @@ footer {
     margin-top: 0.4rem;
   }
 
-  /* Hide eyebrow + support line on mobile — headline is self-contained */
+  /* Hide eyebrow on mobile — headline is self-contained */
   #hero .eyebrow        { display: none; }
-  .hero-support-mobile  { display: none; }
 
-  /* Swap headline to mobile version, hide desktop variants */
+  /* Swap headline and support to mobile versions */
   .hero-heading-desktop { display: none; }
   .hero-support-desktop { display: none; }
   .hero-heading-mobile  { display: block; }
+  .hero-support-mobile  {
+    display: block;
+    color: var(--text);
+    font-weight: 700;
+    font-style: normal;
+    /* white halo ensures legibility over any part of the background image */
+    text-shadow:
+      0 0 16px rgba(248, 247, 244, 1),
+      0 0 32px rgba(248, 247, 244, 0.9),
+      0 1px 4px rgba(248, 247, 244, 0.8);
+  }
 
   /* Reorder hero elements only — scoped to .hero-text so other sections are unaffected */
   .hero-text .eyebrow      { order: 1; }
