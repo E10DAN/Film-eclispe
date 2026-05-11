@@ -1347,8 +1347,9 @@ section { padding: var(--section-pad) 0; }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 2.75rem;
+  padding: 1.5rem;
   box-shadow: var(--shadow-lg);
+  min-height: 500px;
 }
 
 .quote-form {
