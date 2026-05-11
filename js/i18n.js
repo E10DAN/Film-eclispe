@@ -201,7 +201,7 @@
 
     "hero.eyebrow": "Pellicule pour vitre premium — Résidentiel &amp; Commercial",
     "hero.headline.desktop": "Fenêtres plus intelligentes.<br><span class=\"accent-word\">Vie améliorée.</span>",
-    "hero.headline.mobile":  "<span class=\"hl-l1\">Réduisez la <span class=\"accent-word\">chaleur</span></span><span class=\"hl-l2\">&amp; l'<span class=\"accent-word\">intimité</span></span><span class=\"hl-l3\">de vos fenêtres.</span>",
+    "hero.headline.mobile":  "<span class=\"hl-l1\">Réduisez la <span class=\"accent-word\">chaleur</span></span><span class=\"hl-l2\">&amp; ajoutez l'<span class=\"accent-word\">intimité</span></span><span class=\"hl-l3\">de vos fenêtres.</span>",
     "hero.sub": "Bloquez la chaleur, réduisez les reflets et protégez votre espace avec nos pellicules haute qualité.",
     "hero.support.desktop": "Confort, intimité et protection — posés en une seule journée.",
     "hero.support.mobile":  "Installation professionnelle de pellicule pour vitres — résidences et commerces à Montréal.",
