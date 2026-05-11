@@ -222,7 +222,7 @@
     "pain4.title": "Factures d'énergie élevées",
     "pain4.body": "Réduisez la clim et vos coûts énergétiques",
     "pain5.title": "Vulnérabilités de sécurité",
-    "pain5.body": "les pellicules de sécurité retiennent le verre brisé",
+    "pain5.body": "Les pellicules de sécurité retiennent le verre brisé",
     "pain6.title": "Reflets et éblouissements",
     "pain6.body": "Films anti-reflets pour votre confort visuel",
 
