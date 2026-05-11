@@ -1284,8 +1284,8 @@ section { padding: var(--section-pad) 0; }
 
 .quote-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 5rem;
+  grid-template-columns: 2fr 3fr;
+  gap: 3.5rem;
   align-items: start;
   position: relative;
   z-index: 1;
@@ -1347,9 +1347,19 @@ section { padding: var(--section-pad) 0; }
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 1.5rem;
+  padding: 1rem;
   box-shadow: var(--shadow-lg);
-  min-height: 500px;
+  /* Let GHL script resize the iframe freely */
+  overflow: hidden;
+}
+
+/* GHL iframe — no fixed height so the embed script can auto-resize */
+.quote-right iframe {
+  display: block;
+  width: 100%;
+  min-height: 720px;
+  border: none;
+  border-radius: calc(var(--radius) - 2px);
 }
 
 .quote-form {
@@ -1726,7 +1736,8 @@ footer {
     width: 100%;
   }
   .quote-left  { width: 100%; text-align: center; align-items: center; }
-  .quote-right { width: 100%; padding: 1.75rem 1.25rem; box-sizing: border-box; }
+  .quote-right { width: 100%; padding: 0.5rem; }
+  .quote-right iframe { min-height: 680px; }
 
   /* ---- Mobile nav: show CTA button, hide lang toggle from top bar ---- */
   .nav-actions {
