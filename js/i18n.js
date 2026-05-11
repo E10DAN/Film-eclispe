@@ -10,7 +10,7 @@
 
     "hero.eyebrow": "Premium Window Film — Residential & Commercial",
     "hero.headline.desktop": "Smarter Windows.<br><span class=\"accent-word\">Better Living.</span>",
-    "hero.headline.mobile":  "Reduce <span class=\"accent-word\">Heat</span> &amp; Add <span class=\"accent-word\">Privacy</span><br>to Your Windows.",
+    "hero.headline.mobile":  "<span class=\"hl-l1\">Reduce <span class=\"accent-word\">Heat</span></span><span class=\"hl-l2\">&amp; Add <span class=\"accent-word\">Privacy</span></span><span class=\"hl-l3\">to Your Windows.</span>",
     "hero.sub": "Block heat, reduce glare, and protect your space with premium window film installation.",
     "hero.support.desktop": "Comfort, privacy, and protection — installed in just one day.",
     "hero.support.mobile":  "Professional window film installation — homes &amp; businesses across Montreal.",
@@ -201,7 +201,7 @@
 
     "hero.eyebrow": "Pellicule pour vitre premium — Résidentiel &amp; Commercial",
     "hero.headline.desktop": "Fenêtres plus intelligentes.<br><span class=\"accent-word\">Vie améliorée.</span>",
-    "hero.headline.mobile":  "Réduisez la <span class=\"accent-word\">chaleur</span> &amp; ajoutez<br><span class=\"accent-word\">l'intimité.</span>",
+    "hero.headline.mobile":  "<span class=\"hl-l1\">Réduisez la <span class=\"accent-word\">chaleur</span></span><span class=\"hl-l2\">&amp; ajoutez</span><span class=\"hl-l3\"><span class=\"accent-word\">l'intimité.</span></span>",
     "hero.sub": "Bloquez la chaleur, réduisez les reflets et protégez votre espace avec nos pellicules haute qualité.",
     "hero.support.desktop": "Confort, intimité et protection — posés en une seule journée.",
     "hero.support.mobile":  "Installation professionnelle de pellicule pour vitres — résidences et commerces à Montréal.",
