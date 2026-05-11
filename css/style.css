@@ -801,10 +801,10 @@ section { padding: var(--section-pad) 0; }
 }
 
 .brand-logo {
-  height: 38px;
+  height: 64px;
   width: auto;
   object-fit: contain;
-  opacity: 0.72;
+  opacity: 0.85;
   transition: opacity 0.3s ease;
 }
 
@@ -814,7 +814,7 @@ section { padding: var(--section-pad) 0; }
 .brand-logo-ss { mix-blend-mode: multiply; }
 
 /* Solar Gard SVG has transparent bg — render as-is */
-.brand-logo-sg { height: 44px; }
+.brand-logo-sg { height: 72px; }
 
 /* ========================================================
    APPLICATIONS

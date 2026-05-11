@@ -76,7 +76,7 @@
     "svc4.bullet2": "Ideal for offices and bathrooms",
     "svc4.bullet3": "Custom finishes available",
 
-    "brands.label": "Our Brands",
+    "brands.label": "Our Partners",
 
     "area.eyebrow": "Service Area",
     "area.heading": "Serving Montreal &amp; Surrounding Areas",
@@ -265,7 +265,7 @@
     "svc4.bullet2": "Idéal pour bureaux et salles de bain",
     "svc4.bullet3": "Finitions sur mesure disponibles",
 
-    "brands.label": "Nos marques",
+    "brands.label": "Nos partenaires",
 
     "area.eyebrow": "Zone desservie",
     "area.heading": "Nous desservons Montréal &amp; les environs",
