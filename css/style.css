@@ -1344,22 +1344,18 @@ section { padding: var(--section-pad) 0; }
 .contact-link:hover { color: var(--accent); }
 
 .quote-right {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 1rem;
-  box-shadow: var(--shadow-lg);
-  /* Let GHL script resize the iframe freely */
-  overflow: hidden;
+  background: none;
+  border: none;
+  box-shadow: none;
+  padding: 0;
 }
 
-/* GHL iframe — no fixed height so the embed script can auto-resize */
+/* GHL iframe — full width, no constraints */
 .quote-right iframe {
   display: block;
   width: 100%;
   min-height: 720px;
   border: none;
-  border-radius: calc(var(--radius) - 2px);
 }
 
 .quote-form {
@@ -1736,7 +1732,7 @@ footer {
     width: 100%;
   }
   .quote-left  { width: 100%; text-align: center; align-items: center; }
-  .quote-right { width: 100%; padding: 0.5rem; }
+  .quote-right { width: 100%; padding: 0; }
   .quote-right iframe { min-height: 680px; }
 
   /* ---- Mobile nav: show CTA button, hide lang toggle from top bar ---- */
