@@ -204,7 +204,7 @@
     "hero.headline.mobile":  "<span class=\"hl-l1\">Réduisez la <span class=\"accent-word\">chaleur</span></span><span class=\"hl-l2\">&amp; Ajoutez l'<span class=\"accent-word\">intimité</span></span><span class=\"hl-l3\">à vos fenêtres.</span>",
     "hero.sub": "Bloquez la chaleur, réduisez les reflets et protégez votre espace avec nos pellicules haute qualité.",
     "hero.support.desktop": "Confort, intimité et protection — posés en une seule journée.",
-    "hero.support.mobile":  "Pellicule pour résidences et espaces commerciaux à Montréal — posée en une journée.",
+    "hero.support.mobile":  "Pellicule de vitre pour résidences et espaces commerciaux à Montréal — posée en une journée.",
     "chip.heat":     "Contrôle thermique",
     "chip.uv":       "Protection UV",
     "chip.privacy":  "Améliorer l'intimité",
