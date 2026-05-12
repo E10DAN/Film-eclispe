@@ -1854,7 +1854,7 @@ footer {
   /* Form: iframe first, info below */
   .quote-right { order: 1; width: 100%; padding: 0; }
   .quote-right iframe { min-height: 680px; }
-  .quote-left  { order: 2; width: 100%; text-align: left; align-items: flex-start; gap: 0; margin-top: 1.5rem; }
+  .quote-left  { order: 2; width: 100%; text-align: center; align-items: center; gap: 0; margin-top: 1.5rem; }
 
   /* Hide heading/eyebrow/sub on mobile — show only next-steps block */
   .quote-left .eyebrow,
@@ -1865,6 +1865,11 @@ footer {
     display: flex;
     margin-top: 0;
     gap: 0.75rem;
+    align-items: center;
+  }
+
+  .quote-left .form-trust-list li {
+    justify-content: center;
   }
 
   /* ---- Mobile nav: show CTA button, hide lang toggle from top bar ---- */
