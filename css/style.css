@@ -1334,21 +1334,30 @@ section { padding: var(--section-pad) 0; }
 .quote-layout {
   display: grid;
   grid-template-columns: 2fr 3fr;
-  gap: 3.5rem;
-  align-items: stretch;
+  grid-template-rows: auto auto;
+  column-gap: 3.5rem;
+  row-gap: 2rem;
   position: relative;
   z-index: 1;
 }
 
 .quote-left {
+  grid-column: 1;
+  grid-row: 1;
   display: flex;
   flex-direction: column;
   gap: 1.75rem;
   justify-content: flex-start;
 }
 
+.quote-right {
+  grid-column: 2;
+  grid-row: 1 / span 2;
+}
+
 .quote-next-steps {
-  margin-top: auto;
+  grid-column: 1;
+  grid-row: 2;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -1845,32 +1854,18 @@ footer {
   .stat-item     { padding: 1.75rem 0.75rem; }
 
   /* ---- Form ---- */
-  .quote-layout {
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    width: 100%;
-  }
-  /* Form: iframe first, info below */
-  .quote-right { order: 1; width: 100%; padding: 0; }
+  .quote-layout { display: flex; flex-direction: column; align-items: stretch; width: 100%; }
+  /* heading → form → checkmarks */
+  .quote-left  { order: 1; width: 100%; text-align: left; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem; }
+  .quote-right { order: 2; width: 100%; padding: 0; }
   .quote-right iframe { min-height: 680px; }
-  .quote-left  { order: 2; width: 100%; text-align: center; align-items: center; gap: 0; margin-top: 1.5rem; }
+  .quote-next-steps { order: 3; width: 100%; margin-top: 1.25rem; align-items: center; text-align: center; }
 
-  /* Hide heading/eyebrow/sub on mobile — show only next-steps block */
+  /* Hide eyebrow and sub — keep section heading visible */
   .quote-left .eyebrow,
-  .quote-left .section-heading,
   .quote-left .section-sub { display: none; }
 
-  .quote-left .quote-next-steps {
-    display: flex;
-    margin-top: 0;
-    gap: 0.75rem;
-    align-items: center;
-  }
-
-  .quote-left .form-trust-list li {
-    justify-content: center;
-  }
+  .quote-next-steps .form-trust-list li { justify-content: center; }
 
   /* ---- Mobile nav: show CTA button, hide lang toggle from top bar ---- */
   .nav-actions {
