@@ -1717,8 +1717,8 @@ footer {
     text-align: left;
   }
   .hl-l1 { display: block; margin-left: 0; }
-  .hl-l2 { display: block; margin-left: 1.4rem; }
-  .hl-l3 { display: block; margin-left: 2.8rem; font-size: 0.85em; font-weight: 700; color: var(--text); }
+  .hl-l2 { display: block; margin-left: 2rem; }
+  .hl-l3 { display: block; margin-left: 4rem; font-size: 0.85em; font-weight: 700; color: var(--text); }
 
   .hero-sub {
     font-size: 1rem;
@@ -1794,17 +1794,18 @@ footer {
   /* Hide everything below the primary CTA on mobile */
   #hero .btn-ghost { display: none; }
 
-  /* Trust bar: one compact line below CTA */
+  /* Trust bar: compact, centered below CTA */
   #hero .trust-row {
     display: flex;
-    flex-wrap: nowrap;
-    gap: 0.2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.25rem;
     margin-top: 0.5rem;
     padding-top: 0.5rem;
     border-top: 1px solid rgba(0,0,0,0.1);
   }
   #hero .trust-row .trust-item {
-    font-size: 0.6rem;
+    font-size: 0.72rem;
     font-weight: 700;
     white-space: nowrap;
   }
