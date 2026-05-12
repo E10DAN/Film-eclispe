@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Brand background -->
+  <rect width="200" height="200" fill="#F8F7F4"/>
+
+  <defs>
+    <clipPath id="fcl"><circle cx="49" cy="100" r="26"/></clipPath>
+    <clipPath id="fcr"><circle cx="151" cy="100" r="26"/></clipPath>
+  </defs>
+
+  <!-- Left crescent -->
+  <circle cx="49"  cy="100" r="26" fill="#FF751F"/>
+  <circle cx="72"  cy="100" r="26" fill="#111111" clip-path="url(#fcl)"/>
+
+  <!-- Right crescent -->
+  <circle cx="151" cy="100" r="26" fill="#FF751F"/>
+  <circle cx="128" cy="100" r="26" fill="#111111" clip-path="url(#fcr)"/>
+
+  <!-- Center eclipse — drawn last so corona sits on top -->
+  <circle cx="100" cy="100" r="26" fill="#111111"/>
+  <circle cx="100" cy="100" r="26" fill="none" stroke="#FF751F" stroke-width="1.5"/>
+</svg>

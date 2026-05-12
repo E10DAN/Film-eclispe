@@ -1,0 +1,23 @@
+<svg width="100%" viewBox="0 0 680 200" role="img" xmlns="http://www.w3.org/2000/svg" style="">
+  <title style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Eclipse trio logo — final</title>
+  <desc style="fill:rgb(0, 0, 0);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto">Three circles on transparent background: left orange crescent, central total eclipse with visible orange corona lip rendered on top of all elements, right orange crescent in FF751F orange.</desc>
+
+  <defs>
+    <clipPath id="cl"><circle cx="218" cy="100" r="62"/></clipPath>
+    <clipPath id="cr"><circle cx="462" cy="100" r="62"/></clipPath>
+  </defs>
+
+  <!-- LEFT crescent -->
+  <circle cx="218" cy="100" r="62" fill="#FF751F" style="fill:rgb(255, 117, 31);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="274" cy="100" r="62" fill="#111111" clip-path="url(#cl)" style="fill:rgb(17, 17, 17);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- RIGHT crescent -->
+  <circle cx="462" cy="100" r="62" fill="#FF751F" style="fill:rgb(255, 117, 31);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <circle cx="406" cy="100" r="62" fill="#111111" clip-path="url(#cr)" style="fill:rgb(17, 17, 17);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+  <!-- CENTER: totality — drawn last so it sits on top -->
+  <circle cx="340" cy="100" r="62" fill="#111111" style="fill:rgb(17, 17, 17);stroke:none;color:rgb(255, 255, 255);stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+  <!-- Corona lip: orange ring, no glow, rendered above everything -->
+  <circle cx="340" cy="100" r="62" fill="none" stroke="#FF751F" stroke-width="2.5" style="fill:none;stroke:rgb(255, 117, 31);color:rgb(255, 255, 255);stroke-width:2.5px;stroke-linecap:butt;stroke-linejoin:miter;opacity:1;font-family:&quot;Anthropic Sans&quot;, -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, sans-serif;font-size:16px;font-weight:400;text-anchor:start;dominant-baseline:auto"/>
+
+</svg>
