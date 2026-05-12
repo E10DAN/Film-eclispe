@@ -1856,7 +1856,7 @@ footer {
   /* ---- Form ---- */
   .quote-layout { display: flex; flex-direction: column; align-items: stretch; width: 100%; }
   /* heading → form → checkmarks */
-  .quote-left  { order: 1; width: 100%; text-align: left; align-items: flex-start; gap: 0.5rem; margin-bottom: 0.5rem; }
+  .quote-left  { order: 1; width: 100%; text-align: center; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; }
   .quote-right { order: 2; width: 100%; padding: 0; }
   .quote-right iframe { min-height: 680px; }
   .quote-next-steps { order: 3; width: 100%; margin-top: 1.25rem; align-items: center; text-align: center; }
